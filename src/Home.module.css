@@ -1,0 +1,104 @@
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 19.33%;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-family: 'Lemonada', cursive;
+}
+.titles {
+  font-family: 'Lemonada', cursive;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Lemonada', cursive;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.heading {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  font-size:30px;
+  padding-left: 90px;
+  padding-right: 100px;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+.heading:hover{
+  cursor: pointer;
+  color : black;
+}
+
+.div {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.headings {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  font-size:20px;
+  padding-left: 90px;
+  padding-right: 100px;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+.headings:hover{
+  cursor: pointer;
+  color : black;
+}

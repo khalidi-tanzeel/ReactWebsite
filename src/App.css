@@ -1,0 +1,23 @@
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+.App-logo {
+  height: 100vmin;
+  height: 100;
+  width: 100;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
