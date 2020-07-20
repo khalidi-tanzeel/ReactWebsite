@@ -22,11 +22,19 @@ html {
   display: table;
 }
 .column {
-  float: left;
-  width: 19.33%;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 150px;
+    float: left;
+  width: 32.3%;
+  margin-left: 100px;
+  margin-bottom: 16px;
+  padding: 0 30px;
+     
+  }
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+     margin-left: 500px;
+  }
 }
 
 /* Clearfix (clear floats) */
@@ -60,14 +68,6 @@ html {
 
 .button:hover {
   background-color: #555;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
 }
 .heading {
   text-align: center;
