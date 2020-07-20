@@ -29,11 +29,17 @@ html {
     display: table;
   }
   .column {
-    float: left;
-    width: 19.33%;
-    padding: 5px;
-    margin-left: 300px;
+     float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
   }
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
   
   /* Clearfix (clear floats) */
   .row::after {
@@ -68,12 +74,7 @@ html {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+ 
 .heading {
     text-align: center;
     font-family: 'Lemonada', cursive;
