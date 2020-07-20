@@ -1,4 +1,4 @@
-.column {
+.columns {
    float: left;
   width: 19.3%;
   padding: 8px;
@@ -7,8 +7,8 @@
   font-family: "Lemonada", cursive;
      
   }
-@media screen and (max-width: 650px) {
-  .column {
+@media screen and (max-width: 600px) {
+  .columns {
     width: 100%;
     display: block;
   }
