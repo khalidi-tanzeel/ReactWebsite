@@ -27,7 +27,7 @@ const about = () => {
               <p className={classes.title}>Manager</p>
               <p className={classes.title}>I started this company when I was young. This is my dream company and It makes me happy</p>
               <p className={classes.title}>#Coder</p>
-              <p className={classes.title}>tanzeelrahimkhalidi@gmail.com</p>
+              <p className={classes.title}>tanzeelrahim@gmail.com</p>
               <p><button className={classes.button}>Contact</button></p>
             </div>
           </div>
