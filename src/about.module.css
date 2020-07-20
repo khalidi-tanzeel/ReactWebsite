@@ -40,6 +40,7 @@ html {
   .column {
     width: 100%;
     display: block;
+     margin-left: 500px;
   }
 }
   
