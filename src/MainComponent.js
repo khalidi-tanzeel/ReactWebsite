@@ -67,7 +67,7 @@ const maincomponent = (props) => {
                     <label for="psw" className={classes.div}><b>Password</b></label>
                     <input type="password" className={classes.div} placeholder="Use Numbers" pattern = "[0-9]+" name="psw" required />
 
-                    <StyleButton type="submit">Show Details</StyleButton>
+                    <StyleButton type="submit">Continue</StyleButton>
                 </form>
             )}
             </Confirm>
