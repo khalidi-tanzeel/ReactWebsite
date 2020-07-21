@@ -1,12 +1,11 @@
 import React from 'react';
-import classes from './Home.module.css';
-import Header from './Header';
 import AboutHome from './AboutHome';
+import HomeHeader from './HomeHeader';
 
 const home = () => {
     return (
         <div>
-        <Header/>
+        <HomeHeader/>
         <AboutHome/>
         </div>
     );
