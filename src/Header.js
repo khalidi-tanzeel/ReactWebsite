@@ -7,7 +7,7 @@ const header = () => {
         <div className = { classes.header }>
          <Link to = "/" className = { classes.logo }>HAPPY TOURS</Link>
           <div className = { classes.headerright }>
-          <Link to = '/Home' className = { classes.active } >Home</Link>
+          <Link to = '/Home' >Home</Link>
           <Link to = './contacts'>Contact</Link>
           <Link to = '/about'>About Us</Link>
            </div>
