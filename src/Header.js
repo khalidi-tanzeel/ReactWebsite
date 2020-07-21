@@ -7,7 +7,7 @@ const header = () => {
         <div className = { classes.header }>
          <Link to = "/" className = { classes.logo }>HAPPY TOURS</Link>
           <div className = { classes.headerright }>
-          <Link to = '/Home' >Home</Link>
+          <Link to = '/Home'>Home</Link>
           <Link to = './contacts'>Contact</Link>
           <Link to = '/about'>About Us</Link>
            </div>
@@ -17,5 +17,3 @@ const header = () => {
 
 export default header
 
-
-//<a className={classes.active} href="#home">Home</a>   <a href="#about">About</a>
