@@ -10,6 +10,7 @@ const header = () => {
           <Link to = '/Home' className = { classes.active } >Home</Link>
           <Link to = './contacts'>Contact</Link>
           <Link to = '/about'>About Us</Link>
+          <Link to = '/trip'>Plan Trip</Link>
            </div>
         </div>
     );
