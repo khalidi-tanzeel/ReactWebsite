@@ -11,6 +11,7 @@ import Footer from './Footer';
 import Payment from './Payment';
 import Register from './Register';
 import deals from './deals';
+import trip from './trip';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/Payment" component={ Payment } />
             <Route path="/Register" component={ Register } />
             <Route path="/deals" component={ deals } />
+            <Route path="/trip" component={ trip } />
           </Switch>
         </Router>
       </div>
