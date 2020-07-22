@@ -12,6 +12,7 @@ import Payment from './Payment';
 import Register from './Register';
 import deals from './deals';
 import trip from './trip';
+import Book from './Book';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/Register" component={ Register } />
             <Route path="/deals" component={ deals } />
             <Route path="/trip" component={ trip } />
+            <Route path="/Book" component={ Book } />
           </Switch>
         </Router>
       </div>
