@@ -19,7 +19,6 @@ box-shadow: 0px 10px 14px -7px #276873;
 border-radius:8px;
 display:inline-block;
 cursor:pointer;
-font-family: 'Lemonada', cursive;
 font-size:16px;
 font-weight:bold;
 padding:13px 32px;
