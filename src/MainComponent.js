@@ -29,7 +29,7 @@ const maincomponent = (props) => {
                     <label for="psw" className={classes.div}><b>Password</b></label>
                     <input type="password" className={classes.div} placeholder="Use Numbers" pattern = "[0-9]+" name="psw" required />
 
-                    <Button className = {classes.button} type="submit">Continue </Button>
+                    <button className = {classes.button} type="submit">Continue </button>
                 </form>
             )}
             </Confirm>
