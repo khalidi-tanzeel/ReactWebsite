@@ -7,41 +7,6 @@ import Register from './Register';
 import Confirm from './Confirm';
 import "@reach/dialog/styles.css";
 
-const StyleDiv = styled.div`
-text-align: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: black;
-
-const StyleButton = styled.button`
-border: none;
-outline: 0;
-display: inline-block;
-padding: 10px 25px;
-color: white;
-background-color: black;
-text-align: center;
-cursor: pointer;
-margin-right:50px;
-box-shadow: 0px 10px 14px -7px #276873;
-border-radius:8px;
-display:inline-block;
-cursor:pointer;
-font-size:16px;
-font-weight:bold;
-padding:13px 32px;
-text-decoration:none;
-text-shadow:0px 1px 0px #3d768a;`
-
-const SelectStyle = styled.select`
-border:1px solid #456879;
-border-radius:10px;
-height: 50px;
-width: 300px;
-padding-left: 12px;
-font-size:20px;`
 
 const maincomponent = (props) => {
     return (
@@ -64,7 +29,7 @@ const maincomponent = (props) => {
                     <label for="psw" className={classes.div}><b>Password</b></label>
                     <input type="password" className={classes.div} placeholder="Use Numbers" pattern = "[0-9]+" name="psw" required />
 
-                    <StyleButton type="submit">Continue</StyleButton>
+                    <Button className = {classes.button} type="submit">Continue </Button>
                 </form>
             )}
             </Confirm>
