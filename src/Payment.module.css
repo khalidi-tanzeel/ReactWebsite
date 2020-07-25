@@ -7,7 +7,6 @@
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   margin: 0 -16px;
-  font-family: "Lemonada", cursive;
 }
 
 .col25 {
@@ -72,7 +71,6 @@ label {
   border-radius: 8px;
   display: inline-block;
   cursor: pointer;
-  font-family: "Lemonada", cursive;
   font-size: 16px;
   font-weight: bold;
   padding: 13px 32px;
