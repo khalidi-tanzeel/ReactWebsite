@@ -19,6 +19,7 @@ const StyleButton = styled.button`
 border: none;
 outline: 0;
 display: inline-block;
+padding: 10px 25px;
 color: white;
 background-color: black;
 text-align: center;
