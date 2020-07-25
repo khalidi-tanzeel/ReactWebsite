@@ -14,7 +14,6 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: black;
-font-family:'Grenze Gotisch';`
 
 const StyleButton = styled.button`
 border: none;
@@ -30,7 +29,6 @@ box-shadow: 0px 10px 14px -7px #276873;
 border-radius:8px;
 display:inline-block;
 cursor:pointer;
-font-family: 'Lemonada', cursive;
 font-size:16px;
 font-weight:bold;
 padding:13px 32px;
@@ -40,7 +38,6 @@ text-shadow:0px 1px 0px #3d768a;`
 const SelectStyle = styled.select`
 border:1px solid #456879;
 border-radius:10px;
-font-family: 'Lemonada', cursive;
 height: 50px;
 width: 300px;
 padding-left: 12px;
