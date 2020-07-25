@@ -45,10 +45,7 @@ html {
 
 .title {
   color: grey;
-  font-family: 'Lemonada', cursive;
-}
-.titles {
-  font-family: 'Lemonada', cursive;
+ 
 }
 
 .button {
@@ -61,7 +58,6 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-family: 'Lemonada', cursive;
 
 }
 
@@ -70,7 +66,6 @@ html {
 }
 .heading {
   text-align: center;
-  font-family: 'Lemonada', cursive;
   font-size:30px;
   padding-left: 90px;
   padding-right: 100px;
@@ -90,7 +85,6 @@ html {
 
 .headings {
   text-align: center;
-  font-family: 'Lemonada', cursive;
   font-size:20px;
   padding-left: 90px;
   padding-right: 100px;
