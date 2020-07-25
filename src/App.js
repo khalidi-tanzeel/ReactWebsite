@@ -13,6 +13,8 @@ import Register from './Register';
 import deals from './deals';
 import trip from './trip';
 import Book from './Book';
+import UserList from './UserList';
+import Admin from './Admin';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
             <Route path="/deals" component={ deals } />
             <Route path="/trip" component={ trip } />
             <Route path="/Book" component={ Book } />
+             <Route path="/UserList" component={ UserList } />
+            <Route path="/Admin" component={ Admin } />
           </Switch>
         </Router>
       </div>
