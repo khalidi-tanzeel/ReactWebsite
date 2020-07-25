@@ -38,10 +38,6 @@ input[type="email"]:focus {
   outline: none;
 }
 
-.div {
-  font-family: "Lemonada", cursive;
-}
-
 .btn:hover {
   opacity: 1;
 }
