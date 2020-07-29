@@ -45,6 +45,19 @@ const about = () => {
             </div>
           </div>
         </div>
+        <div className={classes.column}>
+          <div className={classes.card}>
+            <img src={team} alt="Zulkfil" style={{ width: "100%" }} />
+            <div className={classes.container}>
+              <h2 className={classes.titles}>Z Siblings</h2>
+              <p className={classes.title}>CEO & Founder</p>
+              <p className={classes.title}>I started this company when I was young. This is my dream company and It makes me happy</p>
+              <p className={classes.title}>#CoolKids</p>
+              <p className={classes.title}>khalidi@gmail.com</p>
+              <p><button className={classes.button}>Contact</button></p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer/>
     </div>
