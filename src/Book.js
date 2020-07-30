@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Header from './Header';
 import styled from 'styled-components';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import {DataManager , UrlAdaptor} from '@syncfusion/ej2-data';
 import { GridComponent, ColumnDirective, ColumnsDirective, Page, Inject, Filter, Group, Sort, FilterSettingsModel, Toolbar, PdfExport, Grid, ExcelExport, EditSettingsModel, ToolbarItems, Edit, PageSettingsModel, dataSourceChanged} from '@syncfusion/ej2-react-grids';
@@ -15,7 +14,7 @@ color: white;
 background-color: black;
 text-align: center;
 cursor: pointer;
-margin-left:500px;
+margin-left:200px;
 margin-bottom: 50px;
 box-shadow: 0px 10px 14px -7px #276873;
 border-radius:8px;
@@ -147,7 +146,6 @@ class book extends Component {
                 </div>
                 
             </div>
-            <Footer/>
             </div>
         );
     }
