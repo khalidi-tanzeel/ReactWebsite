@@ -41,17 +41,17 @@ const Payment = () => {
                                     <label for="cname" className={classes.div}>Name on Card</label>
                                     <input type="text" className={classes.div} id="cname" name="cardname" placeholder="John More Doe" required />
                                     <label for="ccnum" className={classes.div}>Credit card number</label>
-                                    <input type="text" className={classes.div} id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required />
+                                    <input type="number" className={classes.div} id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required />
                                     <label for="expmonth" className={classes.div} >Exp Month</label>
                                     <input type="text" className={classes.div} id="expmonth" name="expmonth" placeholder="September" required />
                                     <div className={classes.row}>
                                         <div className={classes.col50}>
-                                            <label for="expyear" className={classes.div} >Exp Year</label>
-                                            <input type="text" className={classes.div} id="expyear" name="expyear" placeholder="2018" required />
+                                            <label for="expyear" className={classes.div} >Exp Date</label>
+                                            <input type="date" className={classes.div} id="expyear" name="expyear" placeholder="2018" required />
                                         </div>
                                         <div className={classes.col50}>
                                             <label for="cvv" className={classes.div} >CVV</label>
-                                            <input type="text" className={classes.div} id="cvv" name="cvv" placeholder="352" required />
+                                            <input type="number" className={classes.div} id="cvv" name="cvv" placeholder="352" required />
                                         </div>
                                     </div>
                                 </div>
