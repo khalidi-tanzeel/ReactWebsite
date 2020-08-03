@@ -3,7 +3,7 @@ import classes from './about.module.css';
 import Pic from './Pic.jpeg';
 import team from './team.jpeg';
 import AboutHeader from './AboutHeader';
-import Footer from './Footer';
+
 
 const about = () => {
   return (
@@ -59,7 +59,6 @@ const about = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
 
   );
