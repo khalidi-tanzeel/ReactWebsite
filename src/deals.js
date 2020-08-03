@@ -6,8 +6,8 @@ const deals = () => {
     return (
         <div>
             <Header />
-            <h2 style={{textAlign:"center", fontFamily:"Lemonada, cursive",fontSize:"30px"}}>Discounted Prices</h2>
-            <p  style={{textAlign:"center" , fontFamily:"Lemonada, cursive" ,fontSize:"20px"}}>You can signup to enjoy the perks of these deals.</p>
+            <h2 style={{textAlign:"center", fontSize:"30px"}}>Discounted Prices</h2>
+            <p  style={{textAlign:"center",fontSize:"20px"}}>You can signup to enjoy the perks of these deals.</p>
             <div className={classes.columns}>
                 <ul className={classes.price}>
                     <li className={classes.header} style={{ backgroundColor: "#9CAF59" }}>Basic</li>
@@ -15,7 +15,7 @@ const deals = () => {
                     <li>2 Bedroom suite</li>
                     <li>Free Wifi</li>
                     <li>10% Discount</li>
-                    <li>Complimentary Breakfast</li>
+                    <li>Breakfast</li>
                     <li className={classes.grey}><a href="#" className={classes.button}>Sign Up</a></li>
                 </ul>
             </div>
