@@ -47,7 +47,7 @@ const Register = (props) =>{
                 <p className={classes.title}>A delightful stroll through rare coastal rainforest, this short track is a great way to introduce the kids to the joys of wildlife-spotting and birdwatching.</p>
                 <p className={classes.title}>Distance : 2km return</p>
                 <p className={classes.title}>Entry Fees : Park entry fees apply</p>
-                <p> <Link to ="/HotelBooking"><button className={classes.button}>Book</button></Link></p>
+                <p> <Link to ="/Payment"><button className={classes.button}>Book</button></Link></p>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Register = (props) =>{
                 <p className={classes.title}>A delightful stroll through rare coastal rainforest, this short track is a great way to introduce the kids to the joys of wildlife-spotting and birdwatching.</p>
                 <p className={classes.title}>Distance : 1000km return</p>
                 <p className={classes.title}>Entry Fees : Park entry fees apply</p>
-                <p> <Link to ="/CarHire"><button className={classes.button}>Book</button></Link></p>
+                <p> <Link to ="/Payment"><button className={classes.button}>Book</button></Link></p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Register = (props) =>{
                 <p className={classes.title}>A delightful stroll through rare coastal rainforest, this short track is a great way to introduce the kids to the joys of wildlife-spotting and birdwatching.</p>
                 <p className={classes.title}>Distance : 5000km return</p>
                 <p className={classes.title}>Entry Fees : Park entry fees apply</p>
-                <p> <Link to ="/HireGuide"><button className={classes.button}>Book</button></Link></p>
+                <p> <Link to ="/Payment"><button className={classes.button}>Book</button></Link></p>
               </div>
             </div>
           </div>
