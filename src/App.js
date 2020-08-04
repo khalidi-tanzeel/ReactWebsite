@@ -15,6 +15,7 @@ import trip from './trip';
 import Book from './Book';
 import UserList from './UserList';
 import Admin from './Admin';
+import ConfirmBooking from './ConfirmBooking';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path="/Book" component={ Book } />
              <Route path="/UserList" component={ UserList } />
             <Route path="/Admin" component={ Admin } />
+            <Route path="/ConfirmBooking" component={ ConfirmBooking }/>
           </Switch>
         </Router>
          <Footer/>
