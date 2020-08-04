@@ -8,7 +8,7 @@ const thankyou = () => {
     return (
     <div>
         <Header />
-        <h4 style={{marginTop:100, marginBottom:300, textAlign:'center', marginLeft:20, marginRight:20}}>Hi User, Thanks for the booking with us, we will shortly send you the email regarding confirmation of your order <br/>
+        <h4 style={{marginTop:100, marginBottom:300, textAlign:'center', marginLeft:20, marginRight:20}}>Hi User, Thanks for the feedback with us us, we will shortly send you the email regarding confirmation of your feedback <br/>
         <br/>
         <Link to ="/">OK</Link></h4>
        
