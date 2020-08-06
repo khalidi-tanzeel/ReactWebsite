@@ -27,7 +27,7 @@ const maincomponent = (props) => {
                     <input type="email" className={classes.div} placeholder="Enter Email" name="email" required />
 
                     <label for="psw" className={classes.div}><b>Password</b></label>
-                    <input type="password" className={classes.div} placeholder="Use Numbers" pattern = "[0-9]+" name="psw" required />
+                    <input type="password" className={classes.div} placeholder="UpperCase,LowerCase and a Number" pattern = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" name="psw" required />
 
                     <button className = {classes.button} type="submit">Continue </button>
                 </form>
