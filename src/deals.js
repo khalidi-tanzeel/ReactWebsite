@@ -28,7 +28,7 @@ const deals = () => {
                     <li>3 Bedroom suite</li>
                     <li>Free Wifi</li>
                     <li>25% Discount</li>
-                    <li>Breakfast & Lunch</li>
+                    <li>Breakfast</li>
                     <li className={classes.grey}><a href="#" className={classes.button}>Sign Up</a></li>
                 </ul>
             </div>
