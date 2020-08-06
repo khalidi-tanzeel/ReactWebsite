@@ -48,7 +48,11 @@ html {
     font-size: 30px;
   }
 }
-  
+@media screen and (max-device-width: 600px){
+.title{
+    font-size:20px
+    }
+}
   /* Clearfix (clear floats) */
   .row::after {
     content: "";
