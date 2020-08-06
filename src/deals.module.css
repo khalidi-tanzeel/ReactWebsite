@@ -6,10 +6,11 @@
   margin-top: 50px;
      
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
   .columns {
-    width: 100%;
+    width: 90%;
     display: block;
+     margin-left:50px;
   }
 }
 
