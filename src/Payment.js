@@ -45,7 +45,7 @@ class Payment extends Component {
                                 <div className={classes.col50}>
                                     <h3>Payment</h3>
                                     <label for="cname" className={classes.div}>Name on Card</label>
-                                    <input type="text" className={classes.div} id="cname" name="cardname" placeholder="John More Doe" required />
+                                    <input type="text" className={classes.div} id="cname" name="cardname" placeholder="Tanzeel" required />
                                     <label for="ccnum" className={classes.div}>Credit card number</label>
                                     <input type="number" className={classes.div} id="ccnum" name="cardnumber" placeholder="1111222233334444" required />
                                     <label for="expmonth" className={classes.div} >Exp Month</label>
