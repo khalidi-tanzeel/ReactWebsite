@@ -128,4 +128,10 @@ span.price {
   }
 }
 
+@media (max-device-width: 800px) {
+  .btn{
+    font-size: 30px;
+  }
+}
+
 
