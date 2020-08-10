@@ -114,17 +114,17 @@ span.price {
 @media (max-device-width: 800px) {
   .row {
     flex-direction: column-reverse;
-    font-size: 20px;
+    font-size: 30px;
   }
   .col25 {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
 @media (max-device-width: 800px) {
   .div{
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
