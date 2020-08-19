@@ -73,7 +73,7 @@ const Admin = () => {
                   <label for="psw" className={classes.div}>Password</label>
                   <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={passwordInput}
                     onChange={handlePasswordChange} required />
-                   label for="psw" className={classes.div}>Confirm Password</label>
+                   <label for="psw" className={classes.div}>Confirm Password</label>
                   <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={confirmpasswordInput}
                     onChange={handleConfirmChange} required />
                   <br />
