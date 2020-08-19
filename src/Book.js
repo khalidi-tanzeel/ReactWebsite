@@ -14,7 +14,7 @@ color: white;
 background-color: black;
 text-align: center;
 cursor: pointer;
-margin-left:50px;
+margin-left:450px;
 margin-bottom: 50px;
 box-shadow: 0px 10px 14px -7px #276873;
 border-radius:8px;
@@ -143,7 +143,7 @@ class book extends Component {
                         </ColumnsDirective>
                         <Inject services={[Page, Group, Toolbar, PdfExport, ExcelExport, Edit]} /> 
                     </GridComponent>
-                    <h4>You can also see the List of users that are already booked with us</h4>
+                    <h4 style={{ textAlign: "center" }}>You can also see the List of users that are already booked with us</h4>
                     <Link to ="/UserList"> <StyleButton> View User List</StyleButton> </Link>
                     <Link to ="/Admin"> <StyleButton1> LogOut</StyleButton1> </Link>
                 </div>
