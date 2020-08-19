@@ -31,8 +31,8 @@ const maincomponent = (props) => {
             <Header />
             <div className={classes.container}>
                 <div style={{ textAlign: "center" }}>
-                    <h2>A Destination For The New Millennium</h2>
-                    <h3>Register with us to avail the exciting offers</h3>
+                    <h1>Register with us to avail the exciting offers</h1>
+                     <h2>Adventure Awaits, Go Find It.</h2>
                 </div>
                 <div className={classes.row}>
                     <div className={classes.column}>
