@@ -44,6 +44,7 @@ const contact = (props) => {
                 Hi User,
                 Please fill out the form so we can make our service better for you as we are want to provide our best services to you.
                 If you have any queries or you want to give us feedback or anything that you want to change then please let us know.
+                <br/>
 
                 <button onClick={props.closeModal} className={classes.submitb3}>Close</button>
               </Modal>
