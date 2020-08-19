@@ -9,11 +9,13 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-weight:bold;
+  text-shadow:0px 1px 0px #3d768a;
 }
 
 input[type="submit"]:hover {
