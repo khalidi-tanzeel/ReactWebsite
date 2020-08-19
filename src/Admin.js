@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import classes from './contacts.module.css';
 import Header from './Header';
-import Confirm from './Confirm';
 import "@reach/dialog/styles.css";
 import destination from './destination.jpeg';
 
