@@ -86,7 +86,7 @@ const Trip = () => {
                         </ColumnsDirective>
                         <Inject services={[Page, Filter, Group,Sort]} /> 
                     </GridComponent>
-                    <h4>When you find your perfect vacation then click on the button below to fill the details</h4>
+                    <h4 style={{ textAlign: "center" }}>When you find your perfect vacation then click on the button below to fill the details</h4>
                     <Link to="/Payment"> <StyleButton>Book vacation</StyleButton> </Link>
                     <Link to="/Admin"> <StyleButton1>Admin View</StyleButton1> </Link>
                 </div>
