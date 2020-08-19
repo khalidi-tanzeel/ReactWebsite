@@ -9,7 +9,6 @@ import destination from './destination.jpeg';
 class admin extends Component {
 
   handsleSubmit = (event) => {
-    event.preventDefault();
     this.props.history.push('/Book');
   }
   render() {
