@@ -59,7 +59,7 @@ const maincomponent = (props) => {
                                         required
                                         placeholder="Your Email Address.." />
 
-                                    <label for="psw" className={classes.div}><b>Password</b></label>
+                                    <label for="psw" className={classes.div}>Password</label>
                                     <input type="password" className={classes.contacts} placeholder="Use Numbers" pattern="[0-9]+" name="psw" required />
                                      <br/>
                                      <br/>
