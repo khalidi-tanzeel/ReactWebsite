@@ -15,7 +15,7 @@ color: white;
 background-color: black;
 text-align: center;
 cursor: pointer;
-margin-left:50px;
+margin-left:450px;
 margin-bottom: 50px;
 box-shadow: 0px 10px 14px -7px #276873;
 border-radius:8px;
@@ -25,7 +25,10 @@ font-size:16px;
 font-weight:bold;
 padding:13px 32px;
 text-decoration:none;
-text-shadow:0px 1px 0px #3d768a;`
+text-shadow:0px 1px 0px #3d768a;
+@media (max-device-width: 900px) {
+    margin-left:250px;
+}`;`
 
 const StyleButton1 = styled.button`
 border: none;
