@@ -7,8 +7,8 @@ const header = () => {
         <div className = { classes.header }>
          <Link to = "/" className = { classes.logo }>HAPPY TOURS</Link>
           <div className = { classes.headerright }>
-          <Link to = '/Home' className = { classes.active } >Home</Link>
-          <Link to = './contacts'>Contact</Link>
+          <Link to = '/Home' className = { classes.active } >Places to go</Link>
+          <Link to = './contacts'>Contact Us</Link>
           <Link to = '/about'>About Us</Link>
           <Link to = '/trip'>Plan Trip</Link>
            </div>
