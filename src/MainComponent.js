@@ -32,7 +32,7 @@ const maincomponent = (props) => {
             <div className={classes.container}>
                  <div style={{ textAlign: "center" }}>
                     <h2>Register with us to avail the exciting offers</h2>
-                </div>
+         
                 </div>
                 <div className={classes.row}>
                     <div className={classes.column}>
