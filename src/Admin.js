@@ -7,7 +7,7 @@ import "@reach/dialog/styles.css";
 import destination from './destination.jpeg';
 
 const Admin = () => {
-
+  const [confirmpasswordInput, setConfirmPasswordInput] = useState('');
   const [emailInput, setEmailInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
   const history = useHistory();
@@ -18,14 +18,18 @@ const Admin = () => {
   const handlePasswordChange = (e) => {
     setPasswordInput(e.target.value);
   }
+  const handleConfirmChange = (e) => {
+    setConfirmPasswordInput(e.target.value);
+  }
 
   const handleLoginSubmit = (e) => {
     let hardcodedCred = {
       email: 'test@gmail.com',
-      password: '123456'
+      password: '123456',
+      confirmpassword: '123456'
     }
 
-    if ((emailInput == hardcodedCred.email) && (passwordInput == hardcodedCred.password)) {
+    if ((emailInput == hardcodedCred.email) && (passwordInput == hardcodedCred.password) && (confirmpasswordInput == hardcodedCred.confirmpassword)) {
       //combination is good. Log them in.
       //this token can be anything. You can use random.org to generate a random string;
       const token = '123456abcdef';
@@ -69,6 +73,9 @@ const Admin = () => {
                   <label for="psw" className={classes.div}>Password</label>
                   <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={passwordInput}
                     onChange={handlePasswordChange} required />
+                   label for="psw" className={classes.div}>Confirm Password</label>
+                  <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={confirmpasswordInput}
+                    onChange={handleConfirmChange} required />
                   <br />
                   <br />
                   <input className={classes.contacts} type="submit" value="Continue" />
