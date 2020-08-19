@@ -34,7 +34,7 @@ class admin extends Component {
 
                     <label for="lname">Email Address</label>
                     <input className={classes.contacts}
-                      type="text" id="lname"
+                      type="email" id="lname"
                       name="lastName"
                       // onChange={props.clicked}
                       //value={props.email}
@@ -44,7 +44,7 @@ class admin extends Component {
                     <label for="psw" className={classes.div}>Password</label>
                     <input type="password" className={classes.contacts} placeholder="Use Numbers" pattern="[0-9]+" name="psw" required />
                     <label for="psw" className={classes.div}>Confirm Password</label>
-                    <input type="password" className={classes.contacts} placeholder="Confirm Password" pattern="[0-9]+" name="psw" required />
+                    <input type="password" className={classes.contacts} placeholder="******" pattern="[0-9]+" name="psw" required />
                     <br />
                     <br />
                     <input className={classes.contacts} type="submit" value="Continue" />
