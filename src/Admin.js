@@ -56,9 +56,7 @@ const Admin = () => {
             <img src={destination} style={{ width: '100%' }} />
           </div>
           <div className={classes.column}>
-            <Confirm title="Confirm" description="Are you sure that all your details are correct?">
-              {confirm => (
-                <form onSubmit={confirm(handleLoginSubmit)} >
+                <form onSubmit={handleLoginSubmit} >
 
 
                   <label for="lname">Email Address</label>
@@ -73,15 +71,11 @@ const Admin = () => {
                   <label for="psw" className={classes.div}>Password</label>
                   <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={passwordInput}
                     onChange={handlePasswordChange} required />
-                   <label for="psw" className={classes.div}>Confirm Password</label>
-                  <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={confirmpasswordInput}
-                    onChange={handleConfirmChange} required />
+                  
                   <br />
                   <br />
                   <input className={classes.contacts} type="submit" value="Continue" />
                 </form>
-              )}
-            </Confirm>
           </div>
         </div>
       </div>
