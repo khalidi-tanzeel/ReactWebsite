@@ -27,7 +27,8 @@ padding:13px 32px;
 text-decoration:none;
 text-shadow:0px 1px 0px #3d768a;
 @media (max-device-width: 900px) {
-    margin-left:250px;
+    margin-left:200px;
+      font-size:30px;
 }`;
 
 const StyleButton1 = styled.button`
@@ -48,7 +49,10 @@ font-weight:bold;
 padding:13px 32px;
 text-decoration:none;
 margin-bottom:10px;
-text-shadow:0px 1px 0px #3d768a;`
+text-shadow:0px 1px 0px #3d768a;
+@media (max-device-width: 900px) {
+    font-size:30px;
+}`;
 const Trip = () => {
 
        
@@ -90,7 +94,7 @@ const Trip = () => {
                         <Inject services={[Page, Filter, Group,Sort]} /> 
                     </GridComponent>
                     <h4 style={{ textAlign: "center" }}>When you find your perfect vacation then click on the button below to fill the details</h4>
-                    <Link to="/Payment"> <StyleButton>Book vacation</StyleButton> </Link>
+                    <Link to="/Payment"> <StyleButton>Book Vacation</StyleButton> </Link>
                     <Link to="/Admin"> <StyleButton1>Admin View</StyleButton1> </Link>
                 </div>
             </div>
