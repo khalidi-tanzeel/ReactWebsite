@@ -27,7 +27,7 @@ font-size:20px;`
 
 const maincomponent = (props) => {
     return (
-        <div className={classes.contacts}>
+        <div className={classes.contact}>
             <Header />
             <div className={classes.container}>
                  <div style={{ textAlign: "center" }}>
@@ -42,7 +42,7 @@ const maincomponent = (props) => {
                         <Confirm title="Confirm" description="Are you sure that all your details are correct?">
                             {confirm => (
                                 <form onSubmit={confirm(props.click)} >
-                                    <label for="fname">Full Name</label>
+                                    <label for="fname"><b>Full Name</b></label>
                                     <input className={classes.contacts}
                                         type="text" id="fname"
                                         name="firstName"
@@ -51,7 +51,7 @@ const maincomponent = (props) => {
                                         onChange={props.clicked}
                                         value={props.firstName} />
 
-                                    <label for="lname">Email Address</label>
+                                    <label for="lname"><b>Email Address</b></label>
                                     <input className={classes.contacts}
                                         type="text" id="lname"
                                         name="lastName"
@@ -60,7 +60,7 @@ const maincomponent = (props) => {
                                         required
                                         placeholder="Your Email Address.." />
 
-                                    <label for="psw" className={classes.div}>Password</label>
+                                    <label for="psw" className={classes.div}><b>Password</b></label>
                                     <input type="password" className={classes.contacts} placeholder="Use Numbers" pattern="[0-9]+" name="psw" required />
                                      <br/>
                                      <br/>
