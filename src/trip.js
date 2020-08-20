@@ -59,7 +59,7 @@ const Trip = () => {
 
         const filterOption: FilterSettingsModel = {
             ignoreAccent: true,
-            type: "Menu",//Menu,CheckBox, Excel
+            type: "CheckBox",//Menu,CheckBox, Excel
         } 
         return (
 
