@@ -21,7 +21,7 @@ const Admin = () => {
 
   const handleLoginSubmit = (e) => {
     let hardcodedCred = {
-      email: 'test@gmail.com',
+      email: 'admin@gmail.com',
       password: '123456',
      
     }
@@ -41,7 +41,7 @@ const Admin = () => {
   }
   return (
 
-    <div className={classes.contacts}>
+    <div className={classes.contact}>
       <Header />
       <div className={classes.container}>
         <div style={{ textAlign: "center" }}>
@@ -56,7 +56,7 @@ const Admin = () => {
                 <form onSubmit={handleLoginSubmit} >
 
 
-                  <label for="lname">Email Address</label>
+                  <label for="lname"><b>Email Address</b></label>
                   <input className={classes.contacts}
                     type="email" id="lname"
                     name="lastName"
@@ -65,7 +65,7 @@ const Admin = () => {
                     required
                     placeholder="Your Email Address.." />
 
-                  <label for="psw" className={classes.div}>Password</label>
+                  <label for="psw" className={classes.div}><b>Password</b></label>
                   <input type="password" className={classes.contacts} placeholder="*****" pattern="[0-9]+" maxlength="6" name="psw" value={passwordInput}
                     onChange={handlePasswordChange} required />
                   
