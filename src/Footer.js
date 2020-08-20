@@ -14,7 +14,7 @@ const footer = () => {
                     <p className={classes.footerlinks}>
                         <a href="https://www.facebook.com/">Explore</a>
         &ensp;
-        <a href="https://www.instagram.com/tanzeel_khalidii/">Instagram</a>
+        <a href="https://help.instagram.com/553970941289985">Instagram</a>
         &ensp;
         <a href="https://github.com/khalidi-tanzeel">GitHub</a>
         &ensp;
