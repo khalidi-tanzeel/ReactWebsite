@@ -6,7 +6,7 @@ import "@reach/dialog/styles.css";
 import destination from './destination.jpeg';
 
 const Admin = () => {
-  const [confirmpasswordInput, setConfirmPasswordInput] = useState('');
+  
   const [emailInput, setEmailInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
   const history = useHistory();
@@ -17,18 +17,16 @@ const Admin = () => {
   const handlePasswordChange = (e) => {
     setPasswordInput(e.target.value);
   }
-  const handleConfirmChange = (e) => {
-    setConfirmPasswordInput(e.target.value);
-  }
+  
 
   const handleLoginSubmit = (e) => {
     let hardcodedCred = {
       email: 'test@gmail.com',
       password: '123456',
-      confirmpassword: '123456'
+     
     }
 
-    if ((emailInput == hardcodedCred.email) && (passwordInput == hardcodedCred.password) && (confirmpasswordInput == hardcodedCred.confirmpassword)) {
+    if ((emailInput == hardcodedCred.email) && (passwordInput == hardcodedCred.password)) {
       //combination is good. Log them in.
       //this token can be anything. You can use random.org to generate a random string;
       const token = '123456abcdef';
