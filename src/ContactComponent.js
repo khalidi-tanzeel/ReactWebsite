@@ -6,7 +6,7 @@ import Modal from './UI/Modal';
 
 const contact = (props) => {
   return (
-    <div className={classes.contacts}>
+    <div className={classes.contact}>
       <div className={classes.container}>
         <div style={{ textAlign: "center" }}>
           <h2>Contact Us</h2>
@@ -18,7 +18,7 @@ const contact = (props) => {
           </div>
           <div className={classes.column}>
             <form onSubmit={props.click} >
-              <label for="fname">First Name</label>
+              <label for="fname"><b>First Name</b></label>
               <input className={classes.contacts}
                 type="text" id="fname"
                 name="firstName"
@@ -27,7 +27,7 @@ const contact = (props) => {
                 onChange={props.clicked}
                 value={props.firstName} />
 
-              <label for="lname">Last Name</label>
+              <label for="lname"><b>Last Name</b></label>
               <input className={classes.contacts}
                 type="text" id="lname"
                 name="lastName"
@@ -36,7 +36,7 @@ const contact = (props) => {
                 required
                 placeholder="Your last name.." />
 
-              <label for="subject">Subject</label>
+              <label for="subject"><b>Subject</b></label>
               <textarea className={classes.contacts} id="subject" name="subject" onChange={props.clicked}
                 value={props.subject} placeholder="Write something.." required style={{ height: "170px" }} />
                <input onClick={props.showModal} className={classes.contacts} type="submit" value="Submit"/>
