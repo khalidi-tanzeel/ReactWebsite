@@ -50,11 +50,11 @@ const about = () => {
           <div className={classes.card}>
             <img src={marvel} alt="Marvel" style={{ width: "100%" }} />
             <div className={classes.container}>
-              <h2 className={classes.titles}>Captain Marvel</h2>
+              <h2 className={classes.titles}>Thanos</h2>
               <p className={classes.title}>CFO</p>
               <p className={classes.title}>I started this company when I was young. This is my dream company and It makes me happy</p>
-              <p className={classes.title}>#PowerGirl</p>
-              <p className={classes.title}>marvel@gmail.com</p>
+              <p className={classes.title}>#PowerGod</p>
+              <p className={classes.title}>Thanos@gmail.com</p>
               <p><button className={classes.button}>Contact</button></p>
             </div>
           </div>
