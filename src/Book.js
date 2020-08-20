@@ -147,7 +147,7 @@ class book extends Component {
                         </ColumnsDirective>
                         <Inject services={[Page, Group, Toolbar, PdfExport, ExcelExport, Edit]} /> 
                     </GridComponent>
-                    <h4 style={{ textAlign: "center" }}>You can also see the List of users that are already booked with us</h4>
+                    <h4 style={{ textAlign: "center" , fontSize: 25 }}>You can also see the List of users that are already booked with us</h4>
                     <Link to ="/UserList"> <StyleButton> View User List</StyleButton> </Link>
                     <Link to ="/Admin"> <StyleButton1> LogOut</StyleButton1> </Link>
                 </div>
