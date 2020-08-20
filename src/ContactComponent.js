@@ -43,7 +43,7 @@ const contact = (props) => {
               <Modal show={props.show} modalClosed={props.hideModals} className={classes.center}>
                 Hi User,
                 Please fill out the form so we can make our service better for you as we are want to provide our best services to you.
-                <br/>
+                <br/><br/><br/>
 
                 <button onClick={props.closeModal} className={classes.submitb3}>Close</button>
               </Modal>
