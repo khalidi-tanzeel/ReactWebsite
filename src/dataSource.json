@@ -1,6 +1,6 @@
 [
     {   "ZipCode" :1024,
-        "Available Date":"19/20/2020",
+        "Available Date":"19/08/2020",
          "Destination": "Paris",
          "Hotel":"Hôtel Paris Lafayette",
          "Price" : "$200",
@@ -9,7 +9,7 @@
     },
     { 
         "ZipCode" :1045,
-        "Available Date":"19/20/2020",
+        "Available Date":"19/01/2020",
         "Destination": "Australia",
         "Hotel":"Harbour Hotel",
         "Price" : "$300",
@@ -17,7 +17,7 @@
     },
     { 
         "ZipCode" :1046,
-        "Available Date":"19/20/2021",
+        "Available Date":"19/02/2021",
          "Destination": "Australia",
          "Hotel":"Kent Hotel",
          "Price" : "$400",
@@ -25,7 +25,7 @@
     },
     {
         "ZipCode" :1405,
-        "Available Date":"20/20/2020",
+        "Available Date":"20/03/2020",
         "Destination": "London",
         "Hotel":"Four Season Hotel",
         "Price" : "$500",
@@ -33,7 +33,7 @@
     },
     {
         "ZipCode" :1505,
-        "Available Date":"20/20/2020",
+        "Available Date":"20/10/2020",
          "Destination": "China",
          "Hotel":"Five Season Hotel",
          "Price" : "$3000",
@@ -41,7 +41,7 @@
     },
     {
         "ZipCode" :1705,
-        "Available Date":"21/20/2020",
+        "Available Date":"21/11/2020",
          "Destination": "India",
          "Hotel":"Taj Hotel",
          "Price" : "$3000",
@@ -49,7 +49,7 @@
     },
     {
         "ZipCode" :1770,
-        "Available Date":"21/20/2020",
+        "Available Date":"21/02/2020",
          "Destination": "Pakistan",
          "Hotel":"PC Hotel",
          "Price" : "$4000",
@@ -57,7 +57,7 @@
     },
     {
         "ZipCode" :1889,
-        "Available Date":"23/20/2020",
+        "Available Date":"23/05/2020",
          "Destination": "China",
          "Hotel":"Pi Pi Hotel",
          "Price" : "$700",
@@ -65,7 +65,7 @@
     },
     {
         "ZipCode" :1099,
-        "Available Date":"23/20/2020",
+        "Available Date":"23/09/2020",
          "Destination": "QueensLand",
          "Hotel":"Haris Hotel",
          "Price" : "$9000",
@@ -73,7 +73,7 @@
     },
     {
         "ZipCode" :1090,
-        "Available Date":"26/20/2020",
+        "Available Date":"26/08/2020",
          "Destination": "Japan",
          "Hotel":"Hotel Pao Pao",
          "Price" : "$2000",
@@ -81,7 +81,7 @@
     },
     {
         "ZipCode" :1771,
-        "Available Date":"26/20/2020",
+        "Available Date":"26/07/2020",
          "Destination": "America",
          "Hotel":"Queens Hotel",
          "Price" : "$1000",
@@ -89,7 +89,7 @@
     },
     {
         "ZipCode" :1562,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/06/2009",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -97,7 +97,7 @@
     },
     {
         "ZipCode" :1233,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/03/2009",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -105,7 +105,7 @@
     },
     {
         "ZipCode" :1894,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/12/2010",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -113,7 +113,7 @@
     },
     {
         "ZipCode" :1675,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/04/2022",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -121,7 +121,7 @@
     },
     {
         "ZipCode" :1236,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/01/2012",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -129,7 +129,7 @@
     },
     {
         "ZipCode" :1787,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/12/2005",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
@@ -137,7 +137,7 @@
     },
     {
         "ZipCode" :1238,
-        "Available Date":"30/20/2009",
+        "Available Date":"30/04/2009",
          "Destination": "China",
          "Hotel":"Hôtel Lafayette",
          "Price" : "$6000",
